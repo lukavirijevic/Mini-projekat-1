@@ -1,0 +1,12 @@
+Ime: Luka (2 suglasnika, 2 samoglasnika, 4 slova)
+Prezime: Virijević (5 suglasnika, 4 samoglasika, 9 slova)
+
+U zbiru 7 suglasnika i 6 samoglasnika u imenu i prezimenu -> port B
+
+U zbiru 13 slova u imenu i prezimenu -> 13 % 6 = 1 -> pin 1 (PB1)
+
+Širina impulsa = broj slova u imenu u ms -> 4 ms
+Širina pauze = broj slova u prezimenu u ms -> 9 ms
+
+Impuls + pauza (takt) se ponavlja broj slova u imenu puta -> 4 puta, 
+zatim se ponavlja broj slova u prezimenu puta -> 9 puta.
